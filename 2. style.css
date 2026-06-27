@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f0f1a;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin-top: 60px;
+}
+
+#chat {
+  margin: 20px auto;
+  width: 80%;
+  min-height: 150px;
+  background: #1c1c2e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input {
+  width: 60%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #4a4aff;
+  border: none;
+  color: white;
+}
