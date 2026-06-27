@@ -1,0 +1,22 @@
+function responder() {
+  let pergunta = document.getElementById("pergunta").value.toLowerCase();
+  let resposta = "";
+
+  if (pergunta.includes("dinheiro") || pergunta.includes("trabalho")) {
+    resposta = "O melhor caminho é começar com uma habilidade digital (ex: edição, marketing ou vendas online) e buscar renda extra progressiva.";
+  }
+
+  else if (pergunta.includes("triste") || pergunta.includes("ansiedade")) {
+    resposta = "O melhor caminho é cuidar da mente primeiro: respire, organize sua rotina e procure apoio. Pequenos passos mudam tudo.";
+  }
+
+  else if (pergunta.includes("negócio") || pergunta.includes("empreender")) {
+    resposta = "O melhor caminho é começar simples: escolha um problema e ofereça uma solução pequena que gere valor rápido.";
+  }
+
+  else {
+    resposta = "O melhor caminho é entender melhor sua situação. Me diga mais detalhes para eu te orientar com precisão.";
+  }
+
+  document.getElementById("resposta").innerText = resposta;
+}
